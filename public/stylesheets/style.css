@@ -2,6 +2,7 @@ body {
   padding: 50px;
   font-family: 14px CrayonE;
   background-color: #f9fbf7;
+  background-image: url('images/bonplan1.jpg');
 }
 
 @font-face {
@@ -15,16 +16,90 @@ a {
 }
 
 button {
-  margin: 40px;
-  text-align: center;
-  background-color: #f25757;
   display: block;
+  margin: 50px;
+}
+.ph-button {
+	  border-style: solid;
+    margin: 100px;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 19px 39px 18px;
+    font-size: 18px;
+}
+/*Green
+==========================*/
+.ph-btn-green {
+
+    border-color: #3AC162;
+	background-color: #5FCF80;
+
+}
+.ph-btn-green:hover, .ph-btn-green:focus, .ph-btn-green:active {
+    background-color: #4BC970;
+    border-color: #3AC162;
 }
 
-#button{
-  margin-top: 20px;
+/*Blue
+==========================*/
+.ph-btn-blue {
+
+    border-color: #326E99;
+    background-color: #3F8ABF;
 }
 
+.ph-btn-blue:hover, .ph-btn-blue:focus, .ph-btn-blue:active {
+    background-color: #397CAC;
+    border-color: #326E99;
+}
+
+/*Grey
+==========================*/
+.ph-btn-grey {
+
+     background-color: #C6CCD2;
+     border-color: #AAB3BB;
+}
+.ph-btn-grey:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
+    background-color: #B8BFC7;
+    border-color: #AAB3BB;
+}
+button.ph-btn-red {
+    background-color: #ED5A5A !important;
+    border-color: #EA4343 !important;
+}
+button.ph-btn-red:hover, .ph-btn-red:focus, .ph-btn-red:active {
+    background: none repeat scroll 0 0 #EB4848 !important;
+    border-color: #E83131 !important;
+}
+/*DEMO ONLY FOR CENTER POSITION*/
+.ph-container {
+  margin: 0 auto;
+  display: inline;
+}
+.ph-float {
+  float: left;
+  width: 22%;
+  padding: 10px;
+  padding-top: 50px;
+  text-align: center;
+}
+.ph-clear {
+ clear: both;
+}
 h1 {
   text-align: center;
   font-size: 40px;

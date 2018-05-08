@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  ul
+    each error in errors
+      li= error
+
+  form(action='/', method='post')
+    input(type='text', name='prenom')
+    input(type='text', name='nom')
+    input(type='number', name='age')
+    input(type='email', name='mail')
+    input(type='submit')

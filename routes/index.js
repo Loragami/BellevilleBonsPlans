@@ -7,6 +7,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+// var something = function() {
+//     console.log('something')
+//   }
+//
+// button(onclick='something()') Click
 
 
 module.exports = router;

@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font-family: 14px CrayonE;
+  background-color: #f9fbf7;
+}
+
+@font-face {
+  font-family: CrayonE;
+  src: url('stylesheets/CrayonE.ttf');
+}
+
+a {
+  color: #f9fbf7;
+  text-decoration: none;
+}
+
+button {
+  margin: 40px;
+  text-align: center;
+  background-color: #f25757;
+  display: block;
+}
+
+#button{
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#hidden {
+  margin: 25px;
+  visibility: hidden;
+}
+input
+{
+    margin: 20px;
+}
+ ul {
+   list-style: none;
+   text-align: center;
+   font-size: 30px;
+ }

@@ -5,7 +5,9 @@ var validator = require('validator');
 router.get('/', function(req, res, next) {
   res.render('connection', { title: 'Connection', errors : [] });
 });
-
+router.get('/ajouter', function(req, res, next) {
+  res.render('ajouter', { title: 'Express' });
+});
 
 router.post('/',function(req,res,next){
   console.log(req.body)

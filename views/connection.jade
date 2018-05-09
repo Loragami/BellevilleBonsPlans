@@ -8,9 +8,9 @@ block content
     each error in errors
       li= error
 
-  form(action='/http://localhost:3000/categories/', method='link')
+  form(action='/', method='POST')
     input(type='text', name='prenom', placeholder='Prénom')
     input(type='text', name='nom', placeholder='Nom')
     input(type='number', name='age', placeholder='Age')
     input(type='email', name='mail', placeholder='Email')
-    input type="submit" value="cliquez ici"
+    input(type='submit')

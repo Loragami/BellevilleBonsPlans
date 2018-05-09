@@ -1,16 +1,16 @@
 extends layout
 
 block content
+ body.index
   h1= title
   p Holi'Ville, une façon de s'amuser mâlin dans son quartier et sa ville!
-  img(src='/images/presentation.jpg')
   ul
     each error in errors
       li= error
 
-  form(action='/', method='post')
-    input(type='text', name='prenom')
-    input(type='text', name='nom')
-    input(type='number', name='age')
-    input(type='email', name='mail')
-    input(type='submit')
+  form(action='/http://localhost:3000/categories/', method='link')
+    input(type='text', name='prenom', placeholder='Prénom')
+    input(type='text', name='nom', placeholder='Nom')
+    input(type='number', name='age', placeholder='Age')
+    input(type='email', name='mail', placeholder='Email')
+    input type="submit" value="cliquez ici"

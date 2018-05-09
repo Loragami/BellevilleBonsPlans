@@ -18,5 +18,13 @@
   "devDependencies": {},
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loragami/BellevilleBonsPlans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Loragami/BellevilleBonsPlans/issues"
+  },
+  "homepage": "https://github.com/Loragami/BellevilleBonsPlans#readme"
 }

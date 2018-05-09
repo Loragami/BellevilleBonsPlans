@@ -1,12 +1,9 @@
 extends layout
 
 block content
-  h1= Signaler un abus
-  ul
-
+ h1= title
   form(action='/', method='post')
-    input(type='text', name='prenom')
-    input(type='text', name='nom')
-    input(type='number', name='age')
-    input(type='email', name='mail')
+    input(type='text', name='nom', placeholder='Nom')
+    input(type='email', name='mail', placeholder='Email')
+    input(type='email', name='text', placeholder='Description')
     input(type='submit')

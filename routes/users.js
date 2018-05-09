@@ -2,12 +2,14 @@ var express = require('express');
 var router = express.Router();
 var validator = require('validator');
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('connection', { title: 'Connection', errors : [] });
-});
+
 router.get('/ajouter', function(req, res, next) {
   res.render('ajouter', { title: 'Express' });
 });
+router.get('/', function(req, res, next) {
+  res.render('connection', { title: 'Connection', errors : [] });
+});
+
 
 router.post('/',function(req,res,next){
   console.log(req.body)
@@ -27,7 +29,7 @@ router.post('/',function(req,res,next){
   if (errors.length > 0){
     res.render('index', {title:'Errors', errors:errors})
   } else {
-    res.send('ok')
+    res.redirect('categories')
   }
 })
 module.exports = router;

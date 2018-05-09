@@ -5,7 +5,7 @@ body {
 }
 
 .index {
-  background-image: url('/images/image.jpg')!important;
+  background-image: url('/images/image=LOGO.jpg')!important;
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 180vh;
@@ -27,9 +27,10 @@ button {
 }
 
 img {
-  height: 30vh;
+  height: 60vh;
   width:auto;
-  text-align: center;
+  margin-left: -5%;
+  margin-top: -10%;
 }
 
 .ph-button {
@@ -58,13 +59,14 @@ img {
 }
 
 .ph-button.ph-btn-purple.left{
-  margin-left: 80% !important;
-  margin-right: 10%;
+  margin-left: 75% !important;
+  margin-right: 15%;
+  margin-top: 28%;
 }
 
 .ph-button.ph-btn-orange.left{
-  margin-left: 80% !important;
-  margin-right: 10%;
+  margin-left: 75% !important;
+  margin-right: 15%;
 }
 /*Green
 ==========================*/
@@ -110,12 +112,12 @@ img {
     border-color: #c96d34;
 }
 .ph-btn-purple {
-    background-color:  #725397!important;
-    border-color: #674b88 !important;
+    background-color:  #9066A3!important;
+    border-color: #A575BA !important;
 }
 .ph-btn-purple:hover, .ph-btn-red:focus, .ph-btn-red:active {
-    background: none repeat scroll 0 0 #7d5ba6 !important;
-    border-color: #674b88 !important;
+    background: none repeat scroll 0 0 #B983D1 !important;
+    border-color: #CE92E8 !important;
 }
 /*DEMO ONLY FOR CENTER POSITION*/
 .ph-container {

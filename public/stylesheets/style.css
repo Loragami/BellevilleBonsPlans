@@ -2,7 +2,8 @@ body {
   padding: 50px;
   font-family: 14px CrayonE;
   background-color: #f9fbf7;
-  background-image: url('images/serge-kutuzov-574831-unsplash.jpg')!important;
+  background-image: url('/images/bonplan1.jpg')!important;
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -19,6 +20,13 @@ button {
   display: block;
   margin: 50px;
 }
+
+img {
+  height: 30vh;
+  width:auto;
+  text-align: center;
+}
+
 .ph-button {
 	  border-style: solid;
     margin: 100px;
@@ -77,13 +85,22 @@ button {
     background-color: #B8BFC7;
     border-color: #AAB3BB;
 }
-button.ph-btn-red {
-    background-color: #ED5A5A !important;
-    border-color: #EA4343 !important;
+.ph-btn-orange {
+
+     background-color: #f5853f;
+     border-color: #c96d34;
 }
-button.ph-btn-red:hover, .ph-btn-red:focus, .ph-btn-red:active {
-    background: none repeat scroll 0 0 #EB4848 !important;
-    border-color: #E83131 !important;
+.ph-btn-orange:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
+    background-color: #df793a;
+    border-color: #b3612e;
+}
+button.ph-btn-purple {
+    background-color:  #725397!important;
+    border-color: #674b88 !important;
+}
+button.ph-btn-purple:hover, .ph-btn-red:focus, .ph-btn-red:active {
+    background: none repeat scroll 0 0 #7d5ba6 !important;
+    border-color: #674b88 !important;
 }
 /*DEMO ONLY FOR CENTER POSITION*/
 .ph-container {

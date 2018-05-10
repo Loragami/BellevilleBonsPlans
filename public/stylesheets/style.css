@@ -4,11 +4,45 @@ body {
   background-color: #f9fbf7;
 }
 
-.index {
+/* .index {
   background-image: url('/images/image=LOGO.jpg')!important;
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 180vh;
+} */
+.add input {
+  background-color: #A898B3;
+  display: inline-block;
+  margin-top: 15px;
+}
+.add h1 {
+  margin-top: -15px;
+  color: #4A2545;
+  border-bottom-color: #4A2545;
+}
+.add {
+  background: url('/images/t.jpg');
+  background-size: 150vh 100vw;
+  background-repeat: no-repeat;
+
+}
+.index {
+    background-image: url(/images/image=LOGO.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-position: right top;
+    height: 75vh;
+    justify-content: flex-end;
+}
+.categories {
+  background: url('/images/h.jpg');
+  /* background-size: 70vh 70vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .index h1 {
@@ -17,8 +51,9 @@ body {
 
 .p1 {
   flex-direction: column;
-  width: 20vw;
+  width: 40vw;
   margin-left: 20%;
+  margin-top: 20%;
   color: #EFD594;
   text-shadow: 1px 1px 2px black;
 }
@@ -37,13 +72,15 @@ body {
 }
 
 a {
-  color: #f9fbf7;
-  text-decoration: none;
+   color: #f9fbf7;
+   text-decoration: none;
+   width: 33%;
+   display: block;
+   padding: 20px 60px;
 }
 
 button {
   display: block;
-  margin: 50px;
 }
 
 img {
@@ -63,13 +100,9 @@ input {
 
 .ph-button {
 	  border-style: solid;
-    margin: 7vw;
-    margin-bottom: 5%;
-    margin-top: 10%;
     border-width: 0px 0px 3px;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     color: #FFFFFF;
-    border-radius: 6px;
     cursor: pointer;
     display: block;
     font-style: normal;
@@ -81,19 +114,15 @@ input {
     white-space: nowrap;
     font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    padding: 19px 39px 18px;
+    padding: 20%;
     font-size: 18px;
+    width: 100%;
+    font-size: 22px;
 }
 
-.ph-button.ph-btn-purple.left{
-  margin-left: 75% !important;
-  margin-right: 15%;
-  margin-top: 28%;
-}
-
-.ph-button.ph-btn-orange.left{
-  margin-left: 75% !important;
-  margin-right: 15%;
+.tri {
+  width: 100px;
+  text-align: center;
 }
 /*Green
 ==========================*/
@@ -111,13 +140,13 @@ input {
 ==========================*/
 .ph-btn-blue {
 
-    border-color: #326E99;
-    background-color: #3F8ABF;
+    border-color: #AA9E92;
+    background-color: #BBADA0;
 }
 
 .ph-btn-blue:hover, .ph-btn-blue:focus, .ph-btn-blue:active {
-    background-color: #397CAC;
-    border-color: #326E99;
+    background-color: #C1B4A8;
+    border-color: #9A8E83;
 }
 
 /*Grey
@@ -131,12 +160,12 @@ input {
     border-color: #AAB3BB;
 }
 .ph-btn-orange {
-  background-color: #df793a;
-  border-color: #b3612e;
+  background-color: #E57F21;
+  border-color: #FB8B24;
 }
 .ph-btn-orange:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
-    background-color: #f5853f;
-    border-color: #c96d34;
+    background-color: #FB8B24;
+    border-color: #FB9537;
 }
 .ph-btn-purple {
     background-color:  #9066A3!important;
@@ -146,21 +175,21 @@ input {
     background: none repeat scroll 0 0 #B983D1 !important;
     border-color: #CE92E8 !important;
 }
-/*DEMO ONLY FOR CENTER POSITION*/
-.ph-container {
-  margin: 0 auto;
-  display: inline;
+
+.ph-button.ph-btn-purple.left{
+  padding: 5%;
+  font-size: 18px;
 }
-.ph-float {
-  float: left;
-  width: 22%;
-  padding: 10px;
-  padding-top: 50px;
-  text-align: center;
+
+.ph-button.ph-btn-orange.left{
+  /* margin-left: 75% !important; */
+  margin-right: 15%;
+  padding: 5%;
+  /* margin: 7%; */
+  font-size: 18px;
+
 }
-.ph-clear {
- clear: both;
-}
+
 #hidden {
   margin: 25px;
   visibility: hidden;
@@ -173,7 +202,7 @@ input
     background-color: #EDCE82;
 }
 .art {
-  background: url('/images/art.jpg');
+  background: url('/images/l.jpg');
   background-size: 200vh 100vw;
   background-repeat: no-repeat;
 }
@@ -185,8 +214,7 @@ input
 .sport {
   background: url('/images/sport.jpg');
   background-size: 200vh 100vw;
-  background-repeat: no-repeat;
-
+  background-repeat: no-repeat;l
 }
 
 body h1 {
@@ -204,7 +232,7 @@ body h1 {
  .sport ul li {
    font-size: 18px;
    text-align: left;
-   background-color: #DFD9E2;
+   background-color: #ECE8E5;
    margin-bottom: 15px;
    padding: 20px;
    color: #2E2930;
@@ -218,7 +246,7 @@ body h1 {
  .art ul li {
    font-size: 18px;
    text-align: left;
-   background-color: #F2DCA6;
+   background-color: #FCB573;
    margin-bottom: 15px;
    padding: 20px;
    color: #2E2930;
@@ -235,6 +263,7 @@ body h1 {
 .sudoku {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 #form {

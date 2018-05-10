@@ -3,13 +3,15 @@ var router = express.Router();
 var validator = require('validator');
 /* GET home page. */
 
-router.get('/ajouter', function(req, res, next) {
-  res.render('ajouter', { title: 'Express' });
+router.get('/add', function(req, res, next) {
+  res.render('add', { title: 'Express' });
 });
 router.get('/', function(req, res, next) {
   res.render('connection', { title: 'Connection', errors : [] });
 });
-
+router.post('/', function(req, res, next) {
+  res.redirect('/theend', { title: 'The End', errors : [] });
+});
 
 router.post('/',function(req,res,next){
   console.log(req.body)

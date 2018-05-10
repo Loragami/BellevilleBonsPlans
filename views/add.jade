@@ -1,0 +1,12 @@
+extends layout
+
+block content
+ body.add
+  h1 Ajoutes un bon plan!
+ .ground
+    #form(action='/theend', method='POST')
+      input(type='text', name='nom',  placeholder='Nom', class='ground')
+      input(type='email', name='mail', placeholder='Email', class='ground')
+      input(type='text', name='text', placeholder='Description', size="50", class="height", class='ground')
+      a(href="/theend")
+       button Soumettre

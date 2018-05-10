@@ -2,15 +2,26 @@ extends layout
 
 block content
  body.index
-  h1= title
-  p Holi'Ville, une façon de s'amuser mâlin dans son quartier et sa ville!
-  ul
-    each error in errors
-      li= error
+   h1 Connexion
+  .p
 
-  form(action='/categories', method='POST')
-    input(type='text', name='prenom', placeholder='Prénom')
-    input(type='text', name='nom', placeholder='Nom')
-    input(type='number', name='age', placeholder='Age')
-    input(type='email', name='mail', placeholder='Email')
-    input(type='submit')
+     form(action='/categories', method='POST')
+      input(type='text', name='prenom', placeholder='Prénom')
+      input(type='text', name='nom', placeholder='Nom')
+      input(type='number', name='age', placeholder='Age')
+      input(type='email', name='mail', placeholder='Email')
+      input(type='submit')
+
+     .p1
+       p
+         Tu as entre 12 et 17 ans? Bienvenue chez Holi'Ville;
+         br
+         Un 'squat virtuel' créé par les jeunes pour les jeunes.
+         br
+        Découvres en quelques clics tous les bons plans du quartier, gratuits ou très accessible, pour passer un été inoubliable à Paris.
+         br
+         Des assos aux particulier, tout le monde met la main au projet, en inscrivant les bons plans à venir.
+         br
+         Merci de te connecter pour avoir accès à tous les bons plans de la ville.
+         br
+         Holi'Ville, une façon de s'amuser mâlin dans son quartier et sa ville!

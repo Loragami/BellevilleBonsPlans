@@ -11,6 +11,26 @@ body {
   background-size: 180vh;
 }
 
+.index h1 {
+  color: #FCF8ED !important;
+}
+
+.p1 {
+  flex-direction: column;
+  width: 20vw;
+  margin-left: 20%;
+  color: #EFD594;
+  text-shadow: 1px 1px 2px black;
+}
+.p {
+  margin-right: 20% !important;
+  display: flex;
+  flex-direction:row;
+  color: #2E2930;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @font-face {
   font-family: CrayonE;
   src: url('stylesheets/CrayonE.ttf');
@@ -43,8 +63,7 @@ input {
 
 .ph-button {
 	  border-style: solid;
-    margin-left: 10%;
-    margin-right: 80%;
+    margin: 7vw;
     margin-bottom: 5%;
     margin-top: 10%;
     border-width: 0px 0px 3px;
@@ -170,11 +189,12 @@ input
 
 }
 
-h1 {
+body h1 {
   text-align: center;
   font-size: 40px;
-  color: #FCF8ED;
-  border-top: solid 2px #EDCE82;
+  color: #F9F1DB;
+  border-bottom: solid 2px #F9F1DB;
+
 }
  ul {
    list-style: none;
@@ -192,6 +212,7 @@ h1 {
 
  .categories h1 {
   color: #2E2930;
+  /* border-top: solid 2px #EDCE82; */
  }
 
  .art ul li {
@@ -211,6 +232,10 @@ h1 {
    padding: 20px;
    color: #2E2930;
  }
+.sudoku {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 #form {
    display: block;
@@ -219,4 +244,7 @@ h1 {
   background: url('/images/abuse.jpg');
   background-size: 200vh 100vw;
   background-repeat: no-repeat;
+}
+.abuse h1 {
+  color: #E3B23C;
 }

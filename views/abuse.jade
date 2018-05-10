@@ -3,8 +3,8 @@ extends layout
 block content
  body.abuse
   h1= title
-   .back
-     #form(action='/', method='post')
+    .back
+  #form(action='/', method='post')
       input(type='text', name='nom',  placeholder='Nom')
       input(type='email', name='mail', placeholder='Email')
       input(type='text', name='text', placeholder='Description', size="50", class="height")

@@ -33,6 +33,14 @@ img {
   margin-top: -10%;
 }
 
+.height {
+  height: 50px;
+}
+
+input {
+  display: block;
+}
+
 .ph-button {
 	  border-style: solid;
     margin-left: 10%;
@@ -134,25 +142,81 @@ img {
 .ph-clear {
  clear: both;
 }
-h1 {
-  text-align: center;
-  font-size: 40px;
-}
-
 #hidden {
   margin: 25px;
   visibility: hidden;
 }
 input
 {
-    margin: 20px;
+    margin: 50px 50px -10px 50px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #EDCE82;
+}
+.art {
+  background: url('/images/art.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+}
+.visit {
+  background: url('/images/visites.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+}
+.sport {
+  background: url('/images/sport.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #FCF8ED;
+  border-top: solid 2px #EDCE82;
 }
  ul {
    list-style: none;
    text-align: center;
    font-size: 30px;
  }
-
- #form {
-   display: block;
+ .sport ul li {
+   font-size: 18px;
+   text-align: left;
+   background-color: #DFD9E2;
+   margin-bottom: 15px;
+   padding: 20px;
+   color: #2E2930;
  }
+
+ .categories h1 {
+  color: #2E2930;
+ }
+
+ .art ul li {
+   font-size: 18px;
+   text-align: left;
+   background-color: #F2DCA6;
+   margin-bottom: 15px;
+   padding: 20px;
+   color: #2E2930;
+ }
+
+ .visit ul li {
+   font-size: 18px;
+   text-align: left;
+   background-color: #CEBBC1;
+   margin-bottom: 15px;
+   padding: 20px;
+   color: #2E2930;
+ }
+
+#form {
+   display: block;
+}
+.abuse {
+  background: url('/images/abuse.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+}

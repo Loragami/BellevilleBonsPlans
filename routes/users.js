@@ -29,7 +29,7 @@ router.post('/',function(req,res,next){
   if (errors.length > 0){
     res.render('index', {title:'Errors', errors:errors})
   } else {
-    res.redirect('categories')
+    res.redirect(200, '/categories')
   }
 })
 module.exports = router;

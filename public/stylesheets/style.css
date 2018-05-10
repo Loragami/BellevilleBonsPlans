@@ -11,6 +11,18 @@ body {
   background-size: 180vh;
 }
 
+.p p {
+  
+}
+.p {
+  margin-right: 20% !important;
+  display: flex;
+  flex-direction:row;
+  color: #2E2930;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @font-face {
   font-family: CrayonE;
   src: url('stylesheets/CrayonE.ttf');
@@ -170,11 +182,12 @@ input
 
 }
 
-h1 {
+body h1 {
   text-align: center;
   font-size: 40px;
   color: #FCF8ED;
-  border-top: solid 2px #EDCE82;
+  border-bottom: solid 2px #EDCE82;
+
 }
  ul {
    list-style: none;
@@ -192,6 +205,7 @@ h1 {
 
  .categories h1 {
   color: #2E2930;
+  border-top: solid 2px #EDCE82;
  }
 
  .art ul li {

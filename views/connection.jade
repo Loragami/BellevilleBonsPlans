@@ -3,14 +3,24 @@ extends layout
 block content
  body.index
   h1= title
-  p Holi'Ville, une façon de s'amuser mâlin dans son quartier et sa ville!
-  ul
-    each error in errors
-      li= error
 
-  form(action='/categories', method='POST')
-    input(type='text', name='prenom', placeholder='Prénom')
-    input(type='text', name='nom', placeholder='Nom')
-    input(type='number', name='age', placeholder='Age')
-    input(type='email', name='mail', placeholder='Email')
-    input(type='submit')
+      ul
+       each error in errors
+        li= error
+
+   .p
+
+     form(action='/categories', method='POST')
+      input(type='text', name='prenom', placeholder='Prénom')
+      input(type='text', name='nom', placeholder='Nom')
+      input(type='number', name='age', placeholder='Age')
+      input(type='email', name='mail', placeholder='Email')
+      input(type='submit')
+
+     p
+      Tu as entre 12 et 17 ans? Bienvenue chez Holi'Ville.
+      Un 'squat virtuel' créé par les jeunes pour les jeunes.
+      br
+      Merci de te connecter pour avoir accès à tous les bons plans de la ville.
+      br
+      Holi'Ville, une façon de s'amuser mâlin dans son quartier et sa ville!

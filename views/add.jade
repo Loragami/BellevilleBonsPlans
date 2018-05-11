@@ -2,11 +2,16 @@ extends layout
 
 block content
  body.add
+  form(action="/categories", method="post")
+    button.ph-button.ph-btn-retour(type="submit", value="Retour")
   h1 Ajoutes un bon plan!
  .ground
-    #form(action='/theend', method='POST')
+    form(action='/theend', method='POST')
+      input(type='text', name='nom',  placeholder='Titre du bon plan', class='ground')
+      input(type='text', name='nom',  placeholder='Tarif', class='ground')
       input(type='text', name='nom',  placeholder='Nom', class='ground')
       input(type='email', name='mail', placeholder='Email', class='ground')
       input(type='text', name='text', placeholder='Description', size="50", class="height", class='ground')
-      a(href="/theend")
-       button Soumettre
+      input(type="submit", value="Soumettre")
+   a(href="./")
+      button.ph-button.ph-btn-retour(type="button") Retour

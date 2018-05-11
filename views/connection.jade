@@ -2,10 +2,11 @@ extends layout
 
 block content
  body.index
-   h1 Connexion
+  form(action="/categories", method="post")
+    button.ph-button.ph-btn-retour(type="submit", value="Retour")
+  h1 Connexion
   .p
-
-     form(action='/categories', method='POST')
+    form(action='/categories', method='POST')
       input(type='text', name='prenom', placeholder='Prénom')
       input(type='text', name='nom', placeholder='Nom')
       input(type='number', name='age', placeholder='Age')

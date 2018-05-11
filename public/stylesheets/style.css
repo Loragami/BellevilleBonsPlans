@@ -4,6 +4,37 @@ body {
   background-color: #f9fbf7;
 }
 
+@font-face {
+  font-family: CrayonE;
+  src: url('/font/CrayonE.ttf');
+}
+  button.ph-button.ph-btn-retour {
+    margin-right: 10%;
+    margin-left: 180%;
+    padding: 3%;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 1%!important;
+    background-color:  #9066A3!important;
+    border-color: #A575BA !important;
+  }
+  button.ph-button.ph-btn-retour:hover {
+    background: none repeat scroll 0 0 #B983D1 !important;
+    border-color: #CE92E8 !important;
+  }
+  button.ph-button.ph-btn-retour.connexion  {
+    margin-left: 150%;
+    margin-top: 150%!important;
+  }
+ .ph-btn-purple {
+      background-color:  #9066A3!important;
+      border-color: #A575BA !important;
+  }
+  .ph-btn-purple:hover, .ph-btn-red:focus, .ph-btn-red:active {
+      background: none repeat scroll 0 0 #B983D1 !important;
+      border-color: #CE92E8 !important;
+  }
+
 /* .index {
   background-image: url('/images/image=LOGO.jpg')!important;
   background-repeat: no-repeat;
@@ -21,7 +52,7 @@ body {
   border-bottom-color: #4A2545;
 }
 .add {
-  background: url('/images/t.jpg');
+  background: url('/images/d.jpg');
   background-size: 150vh 100vw;
   background-repeat: no-repeat;
 
@@ -46,7 +77,8 @@ body {
 }
 
 .index h1 {
-  color: #FCF8ED !important;
+  color: #DCCCA3;
+  margin-right: 40%;
 }
 
 .p1 {
@@ -64,11 +96,6 @@ body {
   color: #2E2930;
   font-size: 18px;
   font-weight: bold;
-}
-
-@font-face {
-  font-family: CrayonE;
-  src: url('stylesheets/CrayonE.ttf');
 }
 
 a {
@@ -167,18 +194,11 @@ input {
     background-color: #FB8B24;
     border-color: #FB9537;
 }
-.ph-btn-purple {
-    background-color:  #9066A3!important;
-    border-color: #A575BA !important;
-}
-.ph-btn-purple:hover, .ph-btn-red:focus, .ph-btn-red:active {
-    background: none repeat scroll 0 0 #B983D1 !important;
-    border-color: #CE92E8 !important;
-}
 
 .ph-button.ph-btn-purple.left{
   padding: 5%;
   font-size: 18px;
+  border-radius: 2px;
 }
 
 .ph-button.ph-btn-orange.left{
@@ -187,6 +207,7 @@ input {
   padding: 5%;
   /* margin: 7%; */
   font-size: 18px;
+  border-radius: 5px;
 
 }
 
@@ -220,8 +241,8 @@ input
 body h1 {
   text-align: center;
   font-size: 40px;
-  color: #F9F1DB;
-  border-bottom: solid 2px #F9F1DB;
+  color: #DCCCA3;
+  border-bottom: solid 2px #DCCCA3;
 
 }
  ul {
@@ -239,7 +260,7 @@ body h1 {
  }
 
  .categories h1 {
-  color: #2E2930;
+  color: #DCCCA3;
   /* border-top: solid 2px #EDCE82; */
  }
 

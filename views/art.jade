@@ -2,6 +2,8 @@ extends layout
 
 block content
  body.art
+  form(action="/categories", method="post")
+    button.ph-button.ph-btn-retour(type="submit", value="Retour")
   h1 Art
   select.tri
     option DATE

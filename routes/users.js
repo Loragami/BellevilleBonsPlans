@@ -4,13 +4,10 @@ var validator = require('validator');
 /* GET home page. */
 
 router.get('/add', function(req, res, next) {
-  res.render('add', { title: 'Express' });
+  res.render('add', { title: 'Ajouter' });
 });
 router.get('/', function(req, res, next) {
   res.render('connection', { title: 'Connection', errors : [] });
-});
-router.post('/', function(req, res, next) {
-  res.redirect('/theend', { title: 'The End', errors : [] });
 });
 
 router.post('/',function(req,res,next){

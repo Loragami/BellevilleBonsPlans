@@ -25,8 +25,8 @@ router.get('/cuisine', function(req, res, next) {
 router.get('/fete', function(req, res, next) {
   res.render('fete', { title: 'Fête' });
 });
-router.get('/maxi', function(req, res, next) {
-  res.render('sorties', { title: 'Maxi bons plans' });
+router.get('/bonsplans', function(req, res, next) {
+  res.render('bonsplans', { title: 'Maxi bons plans' });
 });
 router.get('/divers', function(req, res, next) {
   res.render('divers', { title: 'Divers' });

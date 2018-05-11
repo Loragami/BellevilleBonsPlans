@@ -4,6 +4,16 @@ body {
   background-color: #f9fbf7;
 }
 
+h1 {
+  font-family: CrayonE;
+  font-weight: bold;
+}
+
+p, li {
+  font-family: Helvetica;
+  box-shadow: 3px 3px 3px #9A8E83;
+}
+
 @font-face {
   font-family: CrayonE;
   src: url('/font/CrayonE.ttf');
@@ -42,8 +52,9 @@ body {
 } */
 .add input {
   background-color: #A898B3;
-  display: inline-block;
+  display: block;
   margin-top: 15px;
+  box-shadow: 3px 3px 3px #9A8E83;
 }
 .add h1 {
   margin-top: -15px;
@@ -68,11 +79,12 @@ body {
     justify-content: flex-end;
 }
 .categories {
-  background: url('/images/h.jpg');
+  background: url('/images/image.jpg');
   /* background-size: 70vh 70vw; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: block;
 }
 
 .index h1 {
@@ -86,7 +98,7 @@ body {
   margin-left: 20%;
   margin-top: 20%;
   color: #EFD594;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 .p {
   margin-right: 20% !important;
@@ -120,10 +132,6 @@ img {
   height: 50px;
 }
 
-input {
-  display: block;
-}
-
 .ph-button {
 	  border-style: solid;
     border-width: 0px 0px 3px;
@@ -144,12 +152,9 @@ input {
     font-size: 18px;
     width: 100%;
     font-size: 22px;
+    box-shadow: 3px 3px 3px #9A8E83;
 }
 
-.tri {
-  width: 100px;
-  margin-left: 90%;
-}
 /*Green
 ==========================*/
 .ph-btn-green {
@@ -214,8 +219,9 @@ input {
   margin: 25px;
   visibility: hidden;
 }
-input
-{
+input {
+    display: block;
+    box-shadow: 3px 3px 3px #9A8E83;
     margin: 50px 50px -10px 50px;
     padding: 15px;
     border-radius: 5px;
@@ -223,6 +229,11 @@ input
 }
 .art {
   background: url('/images/l.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+}
+.plans {
+  background: url('/images/aa.jpg');
   background-size: 200vh 100vw;
   background-repeat: no-repeat;
 }
@@ -250,10 +261,20 @@ input
   background-size: 200vh 100vw;
   background-repeat: no-repeat;
 }
+.signalement {
+  width: 24px;
+  height: 20px;
+}
+
+.tri {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+}
 .sport {
   background: url('/images/sport.jpg');
   background-size: 200vh 100vw;
-  background-repeat: no-repeat;l
+  background-repeat: no-repeat;
 }
 
 body h1 {
@@ -275,6 +296,7 @@ body h1 {
    margin-bottom: 15px;
    padding: 20px;
    color: #2E2930;
+   box-shadow: 3px 3px 3px #9A8E83;
  }
 
  .categories h1 {
@@ -289,6 +311,16 @@ body h1 {
    margin-bottom: 15px;
    padding: 20px;
    color: #2E2930;
+  box-shadow: 3px 3px 3px #9A8E83;
+ }
+ .plans ul li {
+   font-size: 18px;
+   text-align: left;
+   background-color: #F2DCA6;
+   margin-bottom: 15px;
+   padding: 20px;
+   color: #2E2930;
+  box-shadow: 3px 3px 3px #9A8E83;
  }
 
  .visit ul li {
@@ -298,6 +330,7 @@ body h1 {
    margin-bottom: 15px;
    padding: 20px;
    color: #2E2930;
+   box-shadow: 3px 3px 3px #9A8E83;
  }
 .sudoku {
   display: flex;

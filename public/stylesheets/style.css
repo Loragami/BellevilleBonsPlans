@@ -270,6 +270,8 @@ input {
   width: 80px;
   height: 30px;
   border-radius: 10px;
+  display: flex;
+  justify-content:flex-start;
 }
 .sport {
   background: url('/images/sport.jpg');

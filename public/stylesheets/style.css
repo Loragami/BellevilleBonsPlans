@@ -10,7 +10,6 @@ body {
 }
   button.ph-button.ph-btn-retour {
     margin-right: 10%;
-    margin-left: 180%;
     padding: 3%;
     width: 100px;
     border-radius: 5px;
@@ -27,7 +26,7 @@ body {
     margin-top: 150%!important;
   }
  .ph-btn-purple {
-      background-color:  #9066A3!important;
+      background-color: #9066A3!important;
       border-color: #A575BA !important;
   }
   .ph-btn-purple:hover, .ph-btn-red:focus, .ph-btn-red:active {
@@ -149,7 +148,7 @@ input {
 
 .tri {
   width: 100px;
-  text-align: center;
+  margin-left: 90%;
 }
 /*Green
 ==========================*/
@@ -226,6 +225,25 @@ input
   background: url('/images/l.jpg');
   background-size: 200vh 100vw;
   background-repeat: no-repeat;
+}
+.theend {
+  background: url('/images/r.jpg');
+  background-size: 200vh 100vw;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  text-align: center;
+
+  font-weight: bold;
+  color: #FB8B24;
+  text-shadow: black 2px 2px 2px;
+}
+.theend img {
+  margin-top: -15%;
+  margin-left: 8%;
+}
+.theend p {
+  margin-top: -5%;
+  margin-left: 8%;
 }
 .visit {
   background: url('/images/visites.jpg');

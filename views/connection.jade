@@ -2,8 +2,8 @@ extends layout
 
 block content
  body.index
-  form(action="/categories", method="post")
-    button.ph-button.ph-btn-retour(type="submit", value="Retour")
+  button.ph-button.ph-btn-retour.left-co(type="submit")
+    a(href="/") Retour
   h1 Connexion
   .p
     form(action='/categories', method='POST')

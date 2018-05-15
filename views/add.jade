@@ -2,8 +2,8 @@ extends layout
 
 block content
  body.add
-  form(action="/categories", method="post")
-    button.ph-button.ph-btn-retour(type="submit", value="Retour")
+  button.ph-button.ph-btn-retour
+    a(href="/") Retour
   h1 Ajoutes un bon plan!
  .ground
     form(action='/theend', method='POST')
@@ -13,4 +13,3 @@ block content
       input(type='email', name='mail', placeholder='Email', class='ground')
       input(type='text', name='text', placeholder='Description', size="50", class="height", class='ground')
       input(type="submit", value="Soumettre")
-   

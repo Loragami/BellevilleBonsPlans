@@ -2,12 +2,12 @@ extends layout
 
 block content
  body.abuse
+  form(action="/categories", method="post")
+    button.ph-button.ph-btn-retour(type="submit") Retour
   h1= title
     .back
-  #form(action='/', method='post')
+  form(action='/', method='post')
       input(type='text', name='nom',  placeholder='Nom')
       input(type='email', name='mail', placeholder='Email')
       input(type='text', name='text', placeholder='Description', size="50", class="height")
       input(type='submit')
-  form(action="/categories", method="post")
-     button.ph-button.ph-btn-retour(type="submit", value="Retour")

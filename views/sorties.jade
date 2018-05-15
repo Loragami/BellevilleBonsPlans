@@ -3,7 +3,7 @@ extends layout
 block content
  body.visit
   form(action="/categories", method="post")
-   button.ph-button.ph-btn-retour(type="submit", value="Retour")
+    button.ph-button.ph-btn-retour(type="submit") Retour
   h1 Sorties et visites
   select.tri
     option DATE
@@ -12,19 +12,25 @@ block content
   ul.activity-list
        li
          p <b>BASE DE LOISIR DE CERGY</b> : Le 4 juillet, l'association PLD organise une sortie à la base de loisir de cergy, une baignade et des activités nautiques sont prévu. <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>4€</b>
-
+         a.abuse(href="/categories/abuse")
+           img.signalement(src="/images/alert.png")
        li
           p <b>BASE DE LOISIR DE TORCY</b> : Le 7 juillet, l'assocation OLGA SPITZER organise une sortie à la base de loisir de torcy, une baignade et des activités nautiques sont prévu. <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>2€</b>
-          img.signalement(src="/images/alert.png")
+          a.abuse(href="/categories/abuse")
+            img.signalement(src="/images/alert.png")
        li
           p <b>PLAGE DE TROUVILLE</b> : Le 9 juillet, l'association PLD organise une sortie à la plage de trouville, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>5€</b>
-          img.signalement(src="/images/alert.png")
+          a.abuse(href="/categories/abuse")
+            img.signalement(src="/images/alert.png")
        li
           p <b>FUTUROSCOPE</b> : Le 12 juillet, l'association OLGA SPITZER organise une sortie au futuroscope, <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>5€</b>
-          img.signalement(src="/images/alert.png")
+          a.abuse(href="/categories/abuse")
+            img.signalement(src="/images/alert.png")
        li
           p <b>DÉFILÉ 14 JUILLET</b> : Le 14 juillet, l'assocation AGECA organise une sortie au défilé du 14 juillet, <i>108bis Avenue Philippe-Auguste, 75011 Paris</i> - 01 43 67 39 35 - <b>GRATUIT</b>
-          img.signalement(src="/images/alert.png")
+          a.abuse(href="/categories/abuse")
+            img.signalement(src="/images/alert.png")
        li
           p <b>CINÉMA</b> : Le 16 juillet, l'assocation PLD organise une sortie au cinéma, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
-          img.signalement(src="/images/alert.png")
+          a.abuse(href="/categories/abuse")
+            img.signalement(src="/images/alert.png")

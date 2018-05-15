@@ -3,15 +3,22 @@ extends layout
 block content
  body.plans
   form(action="/categories", method="post")
-    button.ph-button.ph-btn-retour(type="submit", value="Retour")
+    button.ph-button.ph-btn-retour(type="submit") Retour
   h1 Maxi Bons Plans
   select.tri
     option DATE
     option PRIX
     option DISTANCE
-  ul
-     li PROJET X!!! la maison de Charlie est vide pour tous le weekend: venez l'envahir!  56 rue du Moulin Joly, code interphone 56B12
-
-     li Concert gratuit de rap sauvage. Faites tourner mais soyez discret, Grottes des Buttes chaumont, 19h- NON DECLARÉ
-
-     li Les jeunes du quartier de la Banane se réunissent après que Jiji est été blessé par un keuf- repère habituel- CADEAU
+  ul.activity-list
+     li
+       p PROJET X!!! la maison de Charlie est vide pour tous le weekend: venez l'envahir!  56 rue du Moulin Joly, code interphone 56B12
+       a.abuse(href="/categories/abuse")
+         img.signalement(src="/images/alert.png")
+     li
+       p Concert gratuit de rap sauvage. Faites tourner mais soyez discret, Grottes des Buttes chaumont, 19h- NON DECLARÉ
+       a.abuse(href="/categories/abuse")
+         img.signalement(src="/images/alert.png")
+     li
+       p Les jeunes du quartier de la Banane se réunissent après que Jiji est été blessé par un keuf- repère habituel- CADEAU
+       a.abuse(href="/categories/abuse")
+         img.signalement(src="/images/alert.png")

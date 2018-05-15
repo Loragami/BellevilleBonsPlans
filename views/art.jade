@@ -3,7 +3,7 @@ extends layout
 block content
  body.art
   form(action="/categories", method="post")
-    button.ph-button.ph-btn-retour(type="submit", value="Retour")
+    button.ph-button.ph-btn-retour(type="submit") Retour
   h1 Art
   select.tri
     option DATE
@@ -12,19 +12,25 @@ block content
   ul.activity-list
     li
       p <b>MUSÉE GRÉVIN</b> : Le 4 juillet, l'association PLD organise une visite du musée grévin. <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
-
-      li
-       p <b>MUSÉE DU LOUVRE</b> : Le 7 juillet, l'assocation OLGA SPITZER organise une visite du musée du louvre. <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>GRATUIT</b>
-       img.signalement(src="/images/alert.png")
-     li
-       p <b>LE MUSÉE DU QUAI BRANLY</b> : Le 9 juillet, l'association PLD organise une visite du musée du quai branly, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
-       img.signalement(src="/images/alert.png")
-     li
-       p <b>CENTRE POMPIDOU</b> : Le 12 juillet, l'association OLGA SPITZER organise une visite du centre pompidou, <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>GRATUIT</b>
-       img.signalement(src="/images/alert.png")
-     li
-       p <b>MUSÉE DE L'ORANGERIE</b> : Le 14 juillet, l'assocation AGECA organise une visite au musée de l'orangerie. <i>108bis Avenue Philippe-Auguste, 75011 Paris</i> - 01 43 67 39 35 - <b>GRATUIT</b>
-       img.signalement(src="/images/alert.png")
-     li
-       p <b>MUSÉE DE LA MUSIQUE</b> : Le 16 juillet, l'assocation PLD organise une visite au musée de la musique, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
-       img.signalement(src="/images/alert.png")
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
+    li
+      p <b>MUSÉE DU LOUVRE</b> : Le 7 juillet, l'assocation OLGA SPITZER organise une visite du musée du louvre. <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>GRATUIT</b>
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
+    li
+      p <b>LE MUSÉE DU QUAI BRANLY</b> : Le 9 juillet, l'association PLD organise une visite du musée du quai branly, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
+    li
+      p <b>CENTRE POMPIDOU</b> : Le 12 juillet, l'association OLGA SPITZER organise une visite du centre pompidou, <i>35 rue de la folie regnault, 75011 Paris</i> - 01 43 70 86 32 - <b>GRATUIT</b>
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
+    li
+      p <b>MUSÉE DE L'ORANGERIE</b> : Le 14 juillet, l'assocation AGECA organise une visite au musée de l'orangerie. <i>108bis Avenue Philippe-Auguste, 75011 Paris</i> - 01 43 67 39 35 - <b>GRATUIT</b>
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
+    li
+      p <b>MUSÉE DE LA MUSIQUE</b> : Le 16 juillet, l'assocation PLD organise une visite au musée de la musique, <i>68 Boulevard Davout, 75020 Paris</i> - 01 42 08 57 11 - <b>GRATUIT</b>
+      a.abuse(href="/categories/abuse")
+        img.signalement(src="/images/alert.png")
